@@ -1,0 +1,62 @@
+body {
+	margin: 100px 50px;
+}
+
+
+header, main, aside, footer {
+	border: 2px solid #636568;
+	background-color: #b6b7ba;
+	box-sizing: border-box;
+	display: block;
+	margin-top: 4%;
+	padding: 3%;
+
+}
+
+
+header{
+	height: 150px;
+}
+
+header h3, main h3, aside h3, footer h3 {
+	margin-left: 20px;
+}
+
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+	}
+
+
+
+
+
+.container1{
+border: 2px dotted green;
+box-sizing: border-box;
+margin-top: 4%;
+
+}
+
+main, aside {
+	float: left;
+	height: 300px;
+}
+
+
+main {
+	width: 62%;
+	margin: 4%;
+}
+
+
+aside {
+	width: 22%;
+	margin: 4%;
+}
+
+footer {
+height: 200px;
+}

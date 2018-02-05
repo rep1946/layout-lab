@@ -1,0 +1,71 @@
+header, article, main, footer {
+
+background-color: lightgrey;
+border: 1px solid darkgrey;
+}
+
+
+main {
+	width: 67%;
+	float: left;
+
+}
+
+body{
+	margin: 125px 75px;
+}
+
+
+.clearfix{
+	margin: 3% 0%;
+	display: block;
+	width: 100%;
+}
+
+.clearfix:after{
+	display: block;
+	content: '';
+	clear: both;
+	
+}
+
+article, main {
+	height: 600px;
+}
+
+
+
+article{
+	width: 13%;
+	float: left;
+}
+
+
+
+.Article1{
+	margin-right: 3%;
+
+}
+
+.Article2{
+	margin-left: 3%;
+}
+
+
+
+header{
+	height: 200px;
+	width: 100%;
+	margin: 0px;
+}
+
+
+h1, h2 {
+	margin: 25px;
+}
+
+footer {
+
+	height: 200px;
+}
+

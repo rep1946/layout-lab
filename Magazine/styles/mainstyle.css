@@ -1,0 +1,165 @@
+body{
+	margin: 150px 75px;
+	text-align: center;
+}
+
+.navcontainer{
+	width: 100%;
+}
+
+#navLogo{
+	float: left;
+	display: block;
+	width: 200px;
+	height: 150px;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+
+
+
+nav{
+	float: right;
+	width: auto;
+	height: 150px;
+
+
+}
+
+ul{
+
+	margin: 0px;
+}
+
+ul li {
+	display: inline-block;
+	margin-left: 25px;
+	background-color: lightgrey;
+	width: auto;
+	height: 100px;
+	padding: 25px;
+	text-align: center;
+}
+
+.clearfix{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+
+aside, main, .hero, .feature1, .feature2, .feature3, .feature4, .feature5, footer {
+	float: left;
+	display: block;
+	background-color: lightgrey;
+	margin: 25px 0px;
+
+}
+
+
+
+aside{
+	height: 900px;
+	width: 15%;
+	margin-right: 20px
+}
+
+
+aside, .hero{
+
+}
+
+
+.hero{
+	margin-left: 20px;
+	width: 82%;
+	height: 287.5px;
+}
+
+
+main{
+	margin: 0px 25px 25px 25px;
+	width: 60%;
+	height: 281px;
+}
+
+.feature1{
+	float: left;
+	margin: 0px 0px 25px 12.5px;
+	width: 19%;
+	height: 281px;
+}
+
+.feature2, .feature3, .feature4, .feature5{
+	float: left;
+	margin: 0px 0px 25px 25px;
+	width: 19%;
+	height: 281px;
+}
+
+
+
+footer{
+	width: 100%;
+	background-color: lightgrey;
+	height: 200px;
+	display: block;
+
+}
+
+
+
+/*---
+
+
+header{
+	position: fixed;
+	margin: 100px 0px;
+	background-color: lightgrey;
+}
+
+
+
+#navLogo{
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	display: block;
+	width: 300px;
+	height: 125px;
+	float: left;
+	margin-right: 70px;
+}
+
+
+nav{
+	float: right;
+	background-color: lightgrey;
+}
+
+ul li{
+	display: inline;
+	list-style: none;
+	padding: 10px;
+
+}
+
+ul li a{
+	background-color: lightgrey;
+}
+
+
+.clearfix1:before {
+	content: "";
+	display: table;
+}
+
+
+
+.clearfix:after {
+  clear: both;
+}--*/
+
+

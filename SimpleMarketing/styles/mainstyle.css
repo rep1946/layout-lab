@@ -1,0 +1,49 @@
+body{
+	margin: 125px 75px;
+}
+
+header, .feature1, .feature2, .article1, .article2, .article3, footer{
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	margin-top: 25px;
+	display: block;
+}
+
+
+header, footer{
+	height: 125px;
+}
+
+.clearfix:after{
+display: block;
+content: '';
+clear: both;
+}
+
+
+.feature1, .feature2{
+	height: 650px;
+	width: 49.25%;
+	float: left;
+}
+
+.feature1{
+	margin-right: 1.25%;
+
+}
+
+
+.article1, .article2, .article3{
+	width: 32.7%;
+	float: left;
+}
+
+
+.article1, .article2{
+	margin-right: .75%;
+}
+
+
+h1, h2, h3, h4 {
+	margin: 20px;
+}
